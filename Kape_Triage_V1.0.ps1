@@ -4,12 +4,14 @@
 # Author:          Hun13r
 # Email:           HunterEco2000@gmail.com
 # Version:         1.0
-# Description:     This script dynamically locates the drive containing the KAPE tools, validates
-#                  the paths, and creates a scheduled task to execute the KAPE command. It ensures
-#                  the task runs with SYSTEM privileges and starts immediately after registration.
+# Description:     This script automates the execution of the SANS Triage process using KAPE 
+#                  (Kroll Artifact Parser and Extractor). It validates the paths, creates a 
+#                  scheduled task, and executes KAPE with pre-defined arguments to capture a 
+#                  forensic triage image. The task runs with SYSTEM privileges and starts 
+#                  immediately after registration for a stealthy and efficient operation.
 # Usage:           Run this script with Administrator privileges.
-# Notes:           Ensure the KAPE tools are located within the expected folder structure:
-#                  "<Drive>:\Tools - Live Acquisition\KAPE\KAPE\kape.exe".
+# Notes:           Ensure the KAPE tools are located in the specified folder structure:
+#                  "I:\Tools - Live Acquisition\KAPE\KAPE\kape.exe".
 #################################################################################################
 # Pre-requisites:
 # - Administrator Privileges
