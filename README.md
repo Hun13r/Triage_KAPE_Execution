@@ -8,25 +8,22 @@
 
 This PowerShell script is designed to dynamically locate the drive containing the [Kroll Artifact Parser and Extractor (KAPE)](https://www.kroll.com/en/services/cyber-risk/data-collection-analysis/kape) tools, validate the required paths, and create a scheduled task to execute a pre-defined KAPE command. It ensures the task runs with elevated privileges and starts immediately after registration.
 
+### Purpose
+
+The primary aim of this script is to **automate the SANS Triage image process** and run stealthily in the background. By leveraging this script, forensic investigators can:
+- Quickly obtain a forensic triage image with minimal user interaction.
+- Seamlessly execute the triage process in the background with minimal noticeability.
+- Speed up the collection of critical forensic artifacts when logged into the system with administrator rights.
+
+This solution is ideal for scenarios where rapid triage and minimal disruption to the system are critical.
+
 ### Key Features:
 - **Dynamic Drive Detection**: Automatically locates the drive containing the KAPE tools, eliminating the need for hardcoding drive letters.
+- **Stealth Operation**: Runs the task seamlessly in the background to minimize noticeability and avoid interfering with the system's normal operation.
 - **System Privileges**: Creates a scheduled task that runs under the SYSTEM account with the highest privileges.
 - **Customisable Arguments**: Supports user-defined arguments for KAPE command execution.
 - **Error Handling**: Includes robust validation to ensure all prerequisites are met before proceeding.
 - **Professional Logging**: Clear and actionable feedback for errors and successful task creation/execution.
-
----
-
-## Table of Contents
-
-1. [Usage](#usage)
-2. [Pre-requisites](#pre-requisites)
-3. [Example Command](#example-command)
-4. [Script](#script)
-5. [Sample Output](#sample-output)
-6. [Disclaimer](#disclaimer)
-7. [Contributing](#contributing)
-8. [License](#license)
 
 ---
 
