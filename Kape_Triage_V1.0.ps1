@@ -1,8 +1,8 @@
 <#
 #################################################################################################
 # Script Name:     Scheduled Task for KAPE Execution
-# Author:          Hun13r
-# Email:           HunterEco2000@gmail.com
+# Author:          Greaton Forensics 
+# Email:           Admin@greaton.co.uk
 # Version:         1.0
 # Description:     This script automates the execution of the SANS Triage process using KAPE 
 #                  (Kroll Artifact Parser and Extractor). It validates the paths, creates a 
