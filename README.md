@@ -6,7 +6,7 @@
 
 ## Overview
 
-This PowerShell script automates the execution of the [Kroll Artifact Parser and Extractor (KAPE)](https://www.kroll.com/en/services/cyber-risk/data-collection-analysis/kape) tool. The script validates required paths, creates a scheduled task, and executes a pre-defined KAPE command with elevated privileges. It is designed to run discreetly in the background, enabling rapid forensic triage with minimal disruption to the system.
+This PowerShell script automates the execution of the [Kroll Artifact Parser and Extractor (KAPE)](https://www.kroll.com/en/services/cyber-risk/incident-response-litigation-support/kroll-artifact-parser-extractor-kape#form716) tool. The script validates required paths, creates a scheduled task, and executes a pre-defined KAPE command with elevated privileges. It is designed to run discreetly in the background, enabling rapid forensic triage with minimal disruption to the system.
 
 
 ### Purpose
